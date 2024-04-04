@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayachaki", "Ayachaki\Ayachaki.csproj", "{836F2FAA-2F58-48B2-9ACF-7D370FDCACD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836F2FAA-2F58-48B2-9ACF-7D370FDCACD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836F2FAA-2F58-48B2-9ACF-7D370FDCACD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836F2FAA-2F58-48B2-9ACF-7D370FDCACD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836F2FAA-2F58-48B2-9ACF-7D370FDCACD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DC5390C-7AF1-4D3F-9AF9-EFFD361BBBD1}
+	EndGlobalSection
+EndGlobal

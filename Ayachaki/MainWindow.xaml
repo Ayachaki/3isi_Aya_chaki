@@ -1,0 +1,41 @@
+﻿<Window x:Class="Ayachaki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ayachaki"
+        mc:Ignorable="d"
+        Title="controle continu 1" Height="400" Width="500" Background="#FFB9B9B9">
+    <Grid Height="384" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="3 ISI" HorizontalAlignment="Left" Margin="231,10,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <StackPanel>
+            <Label Content="Name"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="120"/>
+            <Label Content="Age"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="120"/>
+            <Label Content="Email"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="120"/>
+            <Label Content="height"/>
+            <Slider Minimum="100" Maximum="250"  SmallChange="0.1"/>
+            <Label Content="weight"/>
+            <Slider Minimum="30" Maximum="150" SmallChange="0.1"/>
+            <Button Content="Submit"  Width="150" Height="32" Click="Button_Click"/>
+
+
+
+
+        </StackPanel>
+        <ListBox  Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="ListBox_SelectionChanged" Background="#FFB9B9B9"/>
+
+
+
+
+
+
+
+    </Grid>
+</Window>
